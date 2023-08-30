@@ -4883,7 +4883,7 @@ const definitions: Definition[] = [
         configure: tuya.configureMagicPacket,
     },
     {
-        fingerprint: tuya.fingerprint('TS011F', ['_TZ3000_cayepv1a', '_TZ3000_lepzuhto', '_TZ3000_qystbcjg']),
+        fingerprint: tuya.fingerprint('TS0601', ['_TZE204_davzgqq0']),
         model: 'TS011F_with_threshold',
         description: 'Din rail switch with power monitoring and threshold settings',
         vendor: 'TuYa',
@@ -4934,6 +4934,7 @@ const definitions: Definition[] = [
         whiteLabel: [
             tuya.whitelabel('TONGOU', 'TO-Q-SY2-163JZT', 'Smart circuit breaker', ['_TZ3000_cayepv1a']),
             tuya.whitelabel('EARU', 'EAKCB-T-M-Z', 'Smart circuit breaker', ['_TZ3000_lepzuhto']),
+            tuya.whitelabel('EARU', 'EAYCBM-Z-2P', 'Smart circuit breaker', ['_TZE204_davzgqq0']),
             tuya.whitelabel('UNSH', 'SMKG-1KNL-EU-Z', 'Smart Circuit Breaker', ['_TZ3000_qystbcjg']),
         ],
     },
