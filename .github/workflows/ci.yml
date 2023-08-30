@@ -3,7 +3,6 @@ name: ci
 on: 
   push:
   
-
 permissions:
   contents: write
   pull-requests: write
